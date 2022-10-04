@@ -1,0 +1,36 @@
+.feature-area{
+    .feature-content-area{
+       .features-list{
+        padding-right: 150px;
+        .list-item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            .icon{
+                margin-right: 10px;
+            }
+            .list-desc{
+                p{
+                    color: #585858;
+                }
+            }
+        }
+       }
+    }
+}
+@media all and (min-width:320px) and (max-width:575px){
+   .feature-title{
+    padding-right: 0px;
+   }
+   .feature-area .feature-content-area .features-list {
+        padding-right: 0px;
+   }
+}
+@media all and (min-width:576px) and (max-width:767px){
+   .feature-title{
+    padding-right: 0px;
+   }
+   .feature-area .feature-content-area .features-list {
+        padding-right: 0px;
+   }
+}

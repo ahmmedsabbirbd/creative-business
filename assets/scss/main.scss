@@ -1,0 +1,37 @@
+/*
+  Theme Name: Construction - Clean Construction HTML5 Template
+  Author: nilartstudio
+  Description: Construction  HTML5 Bootstrap 4 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. bannar area
+*/
+@import 'mixin';
+// @import 'variable'; 
+@import 'common';
+@import 'header';
+@import './bannar';
+@import './bestDeals';
+@import 'slider';
+@import 'heading';
+@import 'contact';
+@import 'services';
+@import 'portfolio';
+@import 'counter';
+@import 'member';
+@import 'promotion';
+@import 'latest-blog';
+@import 'feature';
+@import 'cta-area';
+@import 'testimonial-area';
+@import 'widgets';
+@import 'footer';
+
+// components
+
+@import './button';
